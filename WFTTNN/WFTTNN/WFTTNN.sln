@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WFTTNN", "WFTTNN.vcxproj", "{FCAF0B8D-27E1-4068-B48D-A6EBEE42591E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCAF0B8D-27E1-4068-B48D-A6EBEE42591E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FCAF0B8D-27E1-4068-B48D-A6EBEE42591E}.Debug|Win32.Build.0 = Debug|Win32
+		{FCAF0B8D-27E1-4068-B48D-A6EBEE42591E}.Release|Win32.ActiveCfg = Release|Win32
+		{FCAF0B8D-27E1-4068-B48D-A6EBEE42591E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

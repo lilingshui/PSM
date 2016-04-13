@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ADODataBase.cpp" />
+    <ClCompile Include="ADORecordSet.cpp" />
+    <ClCompile Include="Channel\TcpServerHandler.cpp" />
+    <ClCompile Include="CoolTabCtrl.cpp" />
+    <ClCompile Include="DBAccess.cpp" />
+    <ClCompile Include="DlgAutoCeShi.cpp" />
+    <ClCompile Include="DlgAutoTask.cpp" />
+    <ClCompile Include="DlgDataBrowse.cpp" />
+    <ClCompile Include="DlgOperateLog.cpp" />
+    <ClCompile Include="DlgRndRead.cpp" />
+    <ClCompile Include="DlgTaskManage.cpp" />
+    <ClCompile Include="DlgTerminalBaoWen.cpp" />
+    <ClCompile Include="DlgTerminalInfo.cpp" />
+    <ClCompile Include="DlgVisualMeter.cpp" />
+    <ClCompile Include="GlobalFunc.cpp" />
+    <ClCompile Include="LayoutCtrl.cpp" />
+    <ClCompile Include="MsgOutput.cpp" />
+    <ClCompile Include="PacketTransfer.cpp" />
+    <ClCompile Include="Protocol.cpp" />
+    <ClCompile Include="PtclCodec.cpp" />
+    <ClCompile Include="PtclModule_NN.cpp" />
+    <ClCompile Include="PtclPacket.cpp" />
+    <ClCompile Include="PtclPacket_NN.cpp" />
+    <ClCompile Include="RecordLog.cpp" />
+    <ClCompile Include="scbarg.cpp" />
+    <ClCompile Include="sizecbar.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="AcceptChannel.cpp" />
+    <ClCompile Include="BufferData.cpp" />
+    <ClCompile Include="ClientChannel.cpp" />
+    <ClCompile Include="Communication\Com.cpp" />
+    <ClCompile Include="HandlerMgr.cpp" />
+    <ClCompile Include="Communication\Modem.cpp" />
+    <ClCompile Include="Reactor\Reactor.cpp" />
+    <ClCompile Include="Communication\RS232.cpp" />
+    <ClCompile Include="Reactor\SockWrapper.cpp" />
+    <ClCompile Include="TH_Thread.cpp" />
+    <ClCompile Include="EventCenter.cpp" />
+    <ClCompile Include="EventRecver.cpp" />
+    <ClCompile Include="ptcl_codec\data_parse_csg.cpp">
+      <Filter>ptcl_codec</Filter>
+    </ClCompile>
+    <ClCompile Include="ptcl_codec\ptcl_module.cpp">
+      <Filter>ptcl_codec</Filter>
+    </ClCompile>
+    <ClCompile Include="ptcl_codec\ptcl_module_csg.cpp">
+      <Filter>ptcl_codec</Filter>
+    </ClCompile>
+    <ClCompile Include="ptcl_codec\ptcl_packet.cpp">
+      <Filter>ptcl_codec</Filter>
+    </ClCompile>
+    <ClCompile Include="ptcl_codec\ptcl_packet_csg.cpp">
+      <Filter>ptcl_codec</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTerminalParent.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgReadHistoryData.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgReadEventData.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgReadCurrentData.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgReadTermInfo.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgBatchInfo.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="WFTTNNView.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="WFTTNNDoc.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="TerminalTreeCtrl.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgConnect.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel\Channel.cpp" />
+    <ClCompile Include="Channel\ChannelMgr.cpp" />
+    <ClCompile Include="Channel\ChannelReveiver.cpp" />
+    <ClCompile Include="Channel\NetHandlerMgr.cpp" />
+    <ClCompile Include="Channel\TcpServerChannel.cpp" />
+    <ClCompile Include="Channel\TcpClientChannel.cpp" />
+    <ClCompile Include="Channel\TcpClientHandler.cpp" />
+    <ClCompile Include="DlgSetChannel.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel\Channel.cpp" />
+    <ClCompile Include="Channel\ChannelMgr.cpp" />
+    <ClCompile Include="Channel\ChannelReveiver.cpp" />
+    <ClCompile Include="Channel\NetHandlerMgr.cpp" />
+    <ClCompile Include="Channel\TcpServerChannel.cpp" />
+    <ClCompile Include="Channel\TcpClientChannel.cpp" />
+    <ClCompile Include="Channel\TcpClientHandler.cpp" />
+    <ClCompile Include="CheckListCtrl.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="WFTTNN.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="ptcl_codec\data_format_csg.cpp">
+      <Filter>ptcl_codec</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSetParam.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="PageNow.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="PageHistory.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="PageEvent.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportDlg.cpp" />
+    <ClCompile Include="shape_mgr.cpp" />
+    <ClCompile Include="WorkView.cpp" />
+    <ClCompile Include="DlgOtherTestInfo.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="common\SortHeaderCtrl.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\SortListCtrl.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgReadAlarmData.cpp" />
+    <ClCompile Include="LogMgr.cpp" />
+    <ClCompile Include="ptcl_codec\data_parse_dlt.cpp">
+      <Filter>ptcl_codec</Filter>
+    </ClCompile>
+    <ClCompile Include="ptcl_codec\ptcl_module_dlt.cpp">
+      <Filter>ptcl_codec</Filter>
+    </ClCompile>
+    <ClCompile Include="ptcl_codec\ptcl_packet_dlt.cpp">
+      <Filter>ptcl_codec</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel\PSTNClientChannel.cpp" />
+    <ClCompile Include="DlgRereadTest.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAutoTest.cpp">
+      <Filter>form</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADODataBase.h" />
+    <ClInclude Include="ADORecordSet.h" />
+    <ClInclude Include="Channel\TcpServerHandler.h" />
+    <ClInclude Include="CoolTabCtrl.h" />
+    <ClInclude Include="DBAccess.h" />
+    <ClInclude Include="DBAccess_Global.h" />
+    <ClInclude Include="DlgAutoCeShi.h" />
+    <ClInclude Include="DlgAutoTask.h" />
+    <ClInclude Include="DlgDataBrowse.h" />
+    <ClInclude Include="DlgOperateLog.h" />
+    <ClInclude Include="DlgRndRead.h" />
+    <ClInclude Include="DlgTaskManage.h" />
+    <ClInclude Include="DlgTerminalBaoWen.h" />
+    <ClInclude Include="DlgTerminalInfo.h" />
+    <ClInclude Include="DlgVisualMeter.h" />
+    <ClInclude Include="GlobalFunc.h" />
+    <ClInclude Include="ItemData.h" />
+    <ClInclude Include="LayoutCtrl.h" />
+    <ClInclude Include="MsgOutput.h" />
+    <ClInclude Include="PacketTransfer.h" />
+    <ClInclude Include="Protocol.h" />
+    <ClInclude Include="PtclCodec.h" />
+    <ClInclude Include="PtclCodec_Global.h" />
+    <ClInclude Include="PtclModule.h" />
+    <ClInclude Include="PtclModule_NN.h" />
+    <ClInclude Include="PtclPacket.h" />
+    <ClInclude Include="PtclPacket_NN.h" />
+    <ClInclude Include="RecordLog.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="scbarg.h" />
+    <ClInclude Include="sizecbar.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="AcceptChannel.h" />
+    <ClInclude Include="BufferData.h" />
+    <ClInclude Include="ClientChannel.h" />
+    <ClInclude Include="Communication\Com.h" />
+    <ClInclude Include="Reactor\EventHandler.h" />
+    <ClInclude Include="HandlerMgr.h" />
+    <ClInclude Include="Communication\Modem.h" />
+    <ClInclude Include="Reactor\Reactor.h" />
+    <ClInclude Include="Communication\RS232.h" />
+    <ClInclude Include="Reactor\SockWrapper.h" />
+    <ClInclude Include="TH_Thread.h" />
+    <ClInclude Include="EventCenter.h" />
+    <ClInclude Include="EventRecver.h" />
+    <ClInclude Include="ptcl_codec\data_parse_csg.h">
+      <Filter>ptcl_codec</Filter>
+    </ClInclude>
+    <ClInclude Include="ptcl_codec\ptcl_module.h">
+      <Filter>ptcl_codec</Filter>
+    </ClInclude>
+    <ClInclude Include="ptcl_codec\ptcl_module_csg.h">
+      <Filter>ptcl_codec</Filter>
+    </ClInclude>
+    <ClInclude Include="ptcl_codec\ptcl_packet.h">
+      <Filter>ptcl_codec</Filter>
+    </ClInclude>
+    <ClInclude Include="ptcl_codec\ptcl_packet_csg.h">
+      <Filter>ptcl_codec</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTerminalParent.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgReadEventData.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgReadCurrentData.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgReadTermInfo.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgBatchInfo.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="WFTTNNView.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="WFTTNNDoc.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="TerminalTreeCtrl.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgConnect.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel\Channel.h" />
+    <ClInclude Include="Channel\ChannelMgr.h" />
+    <ClInclude Include="Channel\ChannelReceiver.h" />
+    <ClInclude Include="Channel\NetHandlerMgr.h" />
+    <ClInclude Include="Channel\TcpServerChannel.h" />
+    <ClInclude Include="Channel\TcpClientChannel.h" />
+    <ClInclude Include="Channel\TcpClientHandler.h" />
+    <ClInclude Include="DlgSetChannel.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel\Channel.h" />
+    <ClInclude Include="Channel\ChannelMgr.h" />
+    <ClInclude Include="Channel\ChannelReceiver.h" />
+    <ClInclude Include="Channel\NetHandlerMgr.h" />
+    <ClInclude Include="Channel\TcpServerChannel.h" />
+    <ClInclude Include="Channel\TcpClientChannel.h" />
+    <ClInclude Include="Channel\TcpClientHandler.h" />
+    <ClInclude Include="task.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckListCtrl.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="WFTTNN.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="ptcl_codec\data_format_csg.h">
+      <Filter>ptcl_codec</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSetParam.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgReadHistoryData.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="PageNow.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="PageHistory.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="PageEvent.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportDlg.h" />
+    <ClInclude Include="DlgOtherTestInfo.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="common\SortHeaderCtrl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\SortListCtrl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgReadAlarmData.h" />
+    <ClInclude Include="LogMgr.h" />
+    <ClInclude Include="ptcl_codec\data_parse_dlt.h">
+      <Filter>ptcl_codec</Filter>
+    </ClInclude>
+    <ClInclude Include="ptcl_codec\ptcl_module_dlt.h">
+      <Filter>ptcl_codec</Filter>
+    </ClInclude>
+    <ClInclude Include="ptcl_codec\ptcl_packet_dlt.h">
+      <Filter>ptcl_codec</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel\PSTNClientChannel.h" />
+    <ClInclude Include="DlgRereadTest.h">
+      <Filter>form</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAutoTest.h">
+      <Filter>form</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WFTTNN.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\WFTTNN.ico" />
+    <Image Include="res\WFTTNNDoc.ico" />
+    <Image Include="ico\ico00001.ico" />
+    <Image Include="ico\about.ico" />
+    <Image Include="ico\channel_set.ico" />
+    <Image Include="ico\cs.ico" />
+    <Image Include="ico\data.ico" />
+    <Image Include="ico\Delete.ico" />
+    <Image Include="ico\exit.ico" />
+    <Image Include="ico\icon1.ico" />
+    <Image Include="ico\icon2.ico" />
+    <Image Include="ico\icon28.ico" />
+    <Image Include="ico\tx.ico" />
+    <Image Include="ico\zc.ico" />
+    <Image Include="ico\zd.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\WFTTNN.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ptcl_codec">
+      <UniqueIdentifier>{bdaa7a5e-c393-45f1-8551-045711e0e481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="form">
+      <UniqueIdentifier>{04e19507-743f-452f-b75c-a5828e145c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{a1d61c30-97c5-4d10-af8e-de2e61253f0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\XpStyle.manifest" />
+  </ItemGroup>
+</Project>
