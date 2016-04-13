@@ -1,0 +1,25 @@
+[Common]
+appname = NM376
+author = yy
+date = 2010/8/30
+time = 19:22:27
+ver = 1.0
+
+[Send]
+application =NM376.bxe
+file1 =Items.db
+file2 =Proto.db
+file3 =selec.db
+file4 =save.db
+pcpath =E:\git\TP9-NM376000\bin
+hcpath =\³¤É³ÍþÊ¤\
+
+
+[Receive]
+application = 
+file1 =
+file2 =
+file3 = 
+file4 = 
+pcpath =E:\Workshop\698ÍøÂç±í
+hcpath=
