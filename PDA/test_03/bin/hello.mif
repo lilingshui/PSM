@@ -1,0 +1,20 @@
+[Common]
+appname = hello
+author = psm
+date = 2016/04/12
+time = 17:07:30
+ver = 1.0
+
+[Send]
+application =hello.bxe
+pcpath =E:\work\demo\test_03\bin
+hcpath =\TEST\
+
+[Receive]
+application = 
+file1 =
+file2 =
+file3 = 
+file4 = 
+pcpath =E:\work\demo\test_03
+hcpath=
